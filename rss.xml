@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[불로그]]></title><description><![CDATA[배운거 줍줍해서 여기에 박제해 놨습니다.]]></description><link>https://shooming.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Sat, 04 Apr 2020 12:54:03 GMT</lastBuildDate><item><title><![CDATA[Linux TIL]]></title><description><![CDATA[Linux TIL 배운거 정리]]></description><link>https://shooming.github.io/posts/TIL-Linux</link><guid isPermaLink="false">https://shooming.github.io/posts/TIL-Linux</guid><pubDate>Thu, 02 Apr 2020 22:40:32 GMT</pubDate><content:encoded>&lt;h1 id=&quot;linux-til&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#linux-til&quot; aria-label=&quot;linux til permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;LINUX TIL&lt;/h1&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[불로그]]></title><description><![CDATA[배운거 줍줍해서 여기에 박제해 놨습니다.]]></description><link>https://shooming.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Sat, 04 Apr 2020 13:01:22 GMT</lastBuildDate><item><title><![CDATA[Linux TIL]]></title><description><![CDATA[Linux TIL 배운거 정리]]></description><link>https://shooming.github.io/posts/TIL-Linux</link><guid isPermaLink="false">https://shooming.github.io/posts/TIL-Linux</guid><pubDate>Thu, 02 Apr 2020 22:40:32 GMT</pubDate><content:encoded>&lt;h1 id=&quot;linux-til&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#linux-til&quot; aria-label=&quot;linux til permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;LINUX TIL&lt;/h1&gt;
 &lt;h2 id=&quot;리눅스-기초&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EB%A6%AC%EB%88%85%EC%8A%A4-%EA%B8%B0%EC%B4%88&quot; aria-label=&quot;리눅스 기초 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;리눅스 기초&lt;/h2&gt;
 &lt;p&gt;linus torvals가 개발&lt;/p&gt;
 &lt;p&gt;초기 기능&lt;/p&gt;
@@ -269,7 +269,114 @@ touch 파일 생성 명령어&lt;/p&gt;
 &lt;p&gt;브랜치는 사용하고 다시 사용하지 않음 브랜치는 사용 후 버릴것 항상 새로 생성할것&lt;/p&gt;
 &lt;p&gt;git pull써서 다른사람 작업한 최신상태 땡겨 온다. &lt;code class=&quot;language-text&quot;&gt;git pull origin(원격저장소 별명) master(로컬 브랜치)&lt;/code&gt; 라고 치면됨&lt;/p&gt;
 &lt;p&gt;tig 치면 바로 브랜치 상태 볼수있음&lt;/p&gt;
-&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;git branch -d (삭제시킬 브랜치이름)&lt;/code&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Python TIL]]></title><description><![CDATA[Python TIL 배운거 정리]]></description><link>https://shooming.github.io/posts/TIL-Python</link><guid isPermaLink="false">https://shooming.github.io/posts/TIL-Python</guid><pubDate>Mon, 30 Mar 2020 22:40:32 GMT</pubDate><content:encoded>&lt;h1 id=&quot;python&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#python&quot; aria-label=&quot;python permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Python&lt;/h1&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;git branch -d (삭제시킬 브랜치이름)&lt;/code&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Django TIL 1]]></title><description><![CDATA[Django TIL 배운거 정리]]></description><link>https://shooming.github.io/posts/TIL-Django1</link><guid isPermaLink="false">https://shooming.github.io/posts/TIL-Django1</guid><pubDate>Thu, 02 Apr 2020 22:40:32 GMT</pubDate><content:encoded>&lt;h1 id=&quot;django-1&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#django-1&quot; aria-label=&quot;django 1 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Django 1&lt;/h1&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;apt&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;install&lt;/span&gt; tree&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;tree 목록 보기 쉽게 만들어주는 플러그인이다.&lt;/p&gt;
+&lt;p&gt;asgi = 비동기식
+wsgi = 웹서버, 만들때 반드시 필요한 모듈 장고,플라스크 등 다씀
+urls = url만들어서 라우팅을 해준다&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;프로젝프 만들 디렉토리 만들기
+Django 프로젝트를 만들 디렉토리를 만든후&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;python&quot;&gt;&lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;django&lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;admin startproject &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;프로젝트이름&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+django&lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;admin startproject &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;프로젝트이름&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;django-admin startproject &amp;#x3C;프로젝트이름&gt; 을 하면 아래의 트리처럼 되면서 프로젝트 이름의 폴더를
+새로 만들고 그안에 파일을 생성하지만 끝에 .(dot)을 찍으면 현재 폴더에서 만들겠다는 뜻이 된다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;├── manage.py
+└── test01
+    ├── __init__.py
+    ├── asgi.py
+    ├── settings.py
+    ├── urls.py
+    └── wsgi.py&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;위와 같은 트리형태로 초기 설정이된다. 기본적으로 이 프로젝트에서 최상위 위치는 &lt;code class=&quot;language-text&quot;&gt;manage.py&lt;/code&gt;가 있는 위치가 된다.&lt;/p&gt;
+&lt;p&gt;초기 세팅이 되고나면, settings.py를 설정해 주어야한다.&lt;/p&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;settings.py&lt;/code&gt; = 프로젝트의 셋팅값에 따라 프로젝트의 방향 정해짐 (제일 먼저 보게됨)&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;import os - manage.py가 있는 장소를 최상위 경로로 만들기위해 사용 (BASE_DIR)
+
+SECRET_KEY = 사용안함 보안위험 함부러 관리하지 말것
+
+DEBUG = True 오류페이지 보여줄지 여부, 개발할때만 사용, 배포할때 무조건 끌것
+
+ALOOWED_HOSTS = [&amp;#39;*&amp;#39;] - &amp;#39;*&amp;#39;(모두 들어올수 있게끔함), 한국의 ip대역 넣는 식으로 들어올 수 있는 사용자 제어함.
+
+INSTALLED_APPS = [] - django에 내장된 기능들로 admin, auth 사용하지 않는다.
+
+MIDDLEWARE = [] Auth,Csrf(위장 피하기위해서 사용, 위장페이지 검사) # 주석처리할것
+
+ROOT_URLCONF = 최상위 url 설정 &amp;#39;test01.urls&amp;#39; ex)localhost:8000/test01.url 호출됨
+
+TEMPLATES = HTML CSS 만들어주는 것이지만 지우지는 않는다.
+
+WSGI_APPLICANTION = 
+
+DATABASES = SQLITE3 관계형 데이터베이스, 파이썬 설치시 같이 설치되며 django에서 기본으로 지원
+
+AUTH_PASSWARD
+
+LANGUAGE_CODE = 지원언어
+
+TIME_ZONE = &amp;#39;asia/seoul&amp;#39; utc 지원하지만 +9 -9 단순히 붙이는 걸로는 안됨
+
+USE_I18N = 다국어지원
+
+USE_L10N = 다국어지원
+
+USET_TZ = 서버 시간?
+
+STATIC_URL = 정적 페이지주소 파일 같은거 받을 때 사용
+
+&amp;#39;django.contrib.admin&amp;#39; 지우면 url 설정 바꿔줘야함 import admin으로 된것&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;세팅이 끝났으면&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;django&quot;&gt;&lt;pre class=&quot;language-django&quot;&gt;&lt;code class=&quot;language-django&quot;&gt;python manage.py startapp user&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;startapp 명령어를 통해 만들기 원하는 앱을 만들 준비를 한다.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;├── db.sqlite3
+├── manage.py
+├── test01
+│   ├── __init__.py
+│   ├── __pycache__
+│   │   ├── __init__.cpython-38.pyc
+│   │   ├── settings.cpython-38.pyc
+│   │   ├── urls.cpython-38.pyc
+│   │   └── wsgi.cpython-38.pyc
+│   ├── asgi.py
+│   ├── settings.py
+│   ├── urls.py
+│   └── wsgi.py
+└── user
+    ├── __init__.py
+    ├── admin.py
+    ├── apps.py
+    ├── migrations
+    │   └── __init__.py
+    ├── models.py
+    ├── tests.py
+    └── views.py&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;그러면 이러한 형태가 되는데 test01의 urls.py를 user에 복사한다.&lt;/p&gt;
+&lt;p&gt;새로운 앱을 만들었는데 새로만들어진 앱은 django가 인식하지 못한다. setting.py에서 INSTALLED_APPS 에 추가해준다.
+추가할 앱이름의 폴더가 user라면 ‘user’라고 작성하면 된다.&lt;/p&gt;
+&lt;p&gt;여기까지 설정을 마치면 데이터 베이스의 모델을 만들어 주어야한다. 그렇게 하기위해 &lt;code class=&quot;language-text&quot;&gt;models.py&lt;/code&gt;를 설정해 준다.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;python&quot;&gt;&lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;# models.py&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;from&lt;/span&gt; django&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;db &lt;span class=&quot;token keyword&quot;&gt;import&lt;/span&gt; models &lt;span class=&quot;token comment&quot;&gt;#orm 수행&lt;/span&gt;
+
+&lt;span class=&quot;token keyword&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;token class-name&quot;&gt;User&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;models&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;Model&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;  &lt;span class=&quot;token comment&quot;&gt;#User는 models.Model의 서브클래스임&lt;/span&gt;
+    name     &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; models&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;CharField&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;max_length &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;50&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+    email    &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; models&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;CharField&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;max_length &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;200&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+    password &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; models&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;CharField&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;max_length &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;400&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+    created_at &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; models&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;DateTimeField&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;auto_now_add &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token boolean&quot;&gt;True&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+    updated_at &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; models&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;DateTimeField&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;auto_now &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token boolean&quot;&gt;True&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;     &lt;span class=&quot;token comment&quot;&gt;#django의 &gt;편의성기능 중 하나 now_add 최초 한번만 기록 수정안함, auto_now 업데이&gt;트 될 때마다 업데이트함&lt;/span&gt;
+
+    &lt;span class=&quot;token keyword&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;token class-name&quot;&gt;Meta&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+        db_table &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;users&apos;&lt;/span&gt;  &lt;span class=&quot;token comment&quot;&gt;# 데이터 베이스 이름 지정, 기록안하면 &quot;app이름_클래스명&quot;으로 만듦&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;위는 간단한 데이터베이스 모델을 만든 것이다.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;django&quot;&gt;&lt;pre class=&quot;language-django&quot;&gt;&lt;code class=&quot;language-django&quot;&gt;python manage.py makemigrations &lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;앱이름&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt; &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;models migration 할시 앱이름 꼭 작성해야한다. 그렇지 않으면 모든 앱들을 migration을 시켜 순서가 꼬여 곤란해 질 수 있다.&lt;/p&gt;
+&lt;p&gt;migration한 파일들은 해당앱 migrations폴더에 저장된다. makemigrations를 한다는 것은 해당 app의 models.py안 클래스에 코딩해놓은 테이블 기반으로 Django에서 쓸수있게 장고에서 따로 메타데이터로 만들어놓는 것이다. 그렇게해야 테이블구조 생김 migrations 폴더에 파일을생성한다.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;python manage.py migrate user 0001&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;방금전 migration한 내용을 바탕으로 데이터베이스에 실제로 테이블을 만들어주는 것이 migrate이다.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Python TIL]]></title><description><![CDATA[Python TIL 배운거 정리]]></description><link>https://shooming.github.io/posts/TIL-Python</link><guid isPermaLink="false">https://shooming.github.io/posts/TIL-Python</guid><pubDate>Mon, 30 Mar 2020 22:40:32 GMT</pubDate><content:encoded>&lt;h1 id=&quot;python&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#python&quot; aria-label=&quot;python permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Python&lt;/h1&gt;
 &lt;h2 id=&quot;print&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#print&quot; aria-label=&quot;print permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;print&lt;/h2&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;python&quot;&gt;&lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;hello world!&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;print 명령어 는 화면에 내용을 출력하기 위해 사용한다.&lt;/p&gt;
