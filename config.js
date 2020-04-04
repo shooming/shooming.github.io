@@ -26,7 +26,7 @@ module.exports = {
   ],
   author: {
     name: 'shooming',
-    photo: '/ic_storage_black_48dp.png',
+    photo: '/mainphoto.png',
     bio: '배운거 줍줍해서 여기에 박제해 놨습니다.',
     contacts: {
       email: '',
