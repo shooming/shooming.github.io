@@ -4,11 +4,11 @@ module.exports = {
   url: 'https://shooming.github.io',
   pathPrefix: '/',
   title: '불로그',
-  subtitle: 'Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.',
+  subtitle: '배운거 줍줍해서 여기에 박제해 놨습니다.',
   copyright: '© All rights reserved.',
   disqusShortname: '',
   postsPerPage: 4,
-  googleAnalyticsId: 'UA-73379983-2',
+  googleAnalyticsId: '',
   useKatex: false,
   menu: [
     {
@@ -18,16 +18,16 @@ module.exports = {
     {
       label: 'About me',
       path: '/pages/about'
-    },
+    }/*,
     {
       label: 'Contact me',
       path: '/pages/contacts'
-    }
+    }*/
   ],
   author: {
-    name: 'John Doe',
-    photo: '/photo.jpg',
-    bio: 'Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.',
+    name: 'shooming',
+    photo: '/ic_storage_black_48dp.png',
+    bio: '배운거 줍줍해서 여기에 박제해 놨습니다.',
     contacts: {
       email: '',
       facebook: '#',
