@@ -5,7 +5,7 @@ import Contacts from './Contacts';
 import Copyright from './Copyright';
 import Menu from './Menu';
 import styles from './Sidebar.module.scss';
-import { useSiteMetadata } from '../../hooks';
+import { useSiteMetadata} from '../../hooks';
 
 type Props = {
   isIndex?: boolean,

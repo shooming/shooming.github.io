@@ -18,7 +18,12 @@ module.exports = {
     {
       label: 'About me',
       path: '/pages/about'
-    }/*,
+    },
+    {
+      label: 'categories',
+      path: '/categories'
+    }
+    /*,
     {
       label: 'Contact me',
       path: '/pages/contacts'
@@ -26,7 +31,7 @@ module.exports = {
   ],
   author: {
     name: 'shooming',
-    photo: '/mainphoto.png',
+    photo: '/static/profileimg.png',
     bio: '배운거 줍줍해서 여기에 박제해 놨습니다.',
     contacts: {
       email: '',
