@@ -146,18 +146,6 @@
   Link: </component---src-templates-post-template-js-b4ba46cbf788e9882753.js>; rel=preload; as=script
   Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin
   Link: </page-data/posts/TIL-HTML/page-data.json>; rel=preload; as=fetch; crossorigin
-/posts/TIL-Linux
-  Link: </webpack-runtime-d194d53efb8d4ea1d94e.js>; rel=preload; as=script
-  Link: </styles-36681512479a843831b0.js>; rel=preload; as=script
-  Link: </framework-9438dbd474456b725327.js>; rel=preload; as=script
-  Link: </532a2f07-13f3dbe88bdf37df72e5.js>; rel=preload; as=script
-  Link: </app-3fe7d1c65d788111f78d.js>; rel=preload; as=script
-  Link: </styles-36681512479a843831b0.js>; rel=preload; as=script
-  Link: </61a99217af7f1d1eebec238e78e684e1bdbe6200-bca950bea239ab986251.js>; rel=preload; as=script
-  Link: </d4f3f45f3b97a996ebac05174393e9dafe15c3a1-05bd0e3960209372de8c.js>; rel=preload; as=script
-  Link: </component---src-templates-post-template-js-b4ba46cbf788e9882753.js>; rel=preload; as=script
-  Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin
-  Link: </page-data/posts/TIL-Linux/page-data.json>; rel=preload; as=fetch; crossorigin
 /posts/TIL-Python
   Link: </webpack-runtime-d194d53efb8d4ea1d94e.js>; rel=preload; as=script
   Link: </styles-36681512479a843831b0.js>; rel=preload; as=script
@@ -182,6 +170,18 @@
   Link: </component---src-templates-post-template-js-b4ba46cbf788e9882753.js>; rel=preload; as=script
   Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin
   Link: </page-data/posts/TIL-Git/page-data.json>; rel=preload; as=fetch; crossorigin
+/posts/TIL-Linux
+  Link: </webpack-runtime-d194d53efb8d4ea1d94e.js>; rel=preload; as=script
+  Link: </styles-36681512479a843831b0.js>; rel=preload; as=script
+  Link: </framework-9438dbd474456b725327.js>; rel=preload; as=script
+  Link: </532a2f07-13f3dbe88bdf37df72e5.js>; rel=preload; as=script
+  Link: </app-3fe7d1c65d788111f78d.js>; rel=preload; as=script
+  Link: </styles-36681512479a843831b0.js>; rel=preload; as=script
+  Link: </61a99217af7f1d1eebec238e78e684e1bdbe6200-bca950bea239ab986251.js>; rel=preload; as=script
+  Link: </d4f3f45f3b97a996ebac05174393e9dafe15c3a1-05bd0e3960209372de8c.js>; rel=preload; as=script
+  Link: </component---src-templates-post-template-js-b4ba46cbf788e9882753.js>; rel=preload; as=script
+  Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin
+  Link: </page-data/posts/TIL-Linux/page-data.json>; rel=preload; as=fetch; crossorigin
 /posts/TIL-Django1
   Link: </webpack-runtime-d194d53efb8d4ea1d94e.js>; rel=preload; as=script
   Link: </styles-36681512479a843831b0.js>; rel=preload; as=script
