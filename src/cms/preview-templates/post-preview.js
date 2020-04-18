@@ -1,4 +1,4 @@
-// @flow strict
+twitter// @flow strict
 import React from 'react';
 import type { Entry, WidgetFor } from '../../types';
 

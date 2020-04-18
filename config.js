@@ -31,8 +31,8 @@ module.exports = {
   ],
   author: {
     name: 'shooming',
-    photo: '/static/profileimg.png',
-    bio: '배운거 줍줍해서 여기에 박제해 놨습니다.',
+    photo: '/photo.png',
+    bio: '',
     contacts: {
       email: '',
       facebook: '#',
