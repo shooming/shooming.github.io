@@ -1,4 +1,83 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[불로그]]></title><description><![CDATA[배운거 줍줍해서 여기에 박제해 놨습니다.]]></description><link>https://shooming.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Sat, 18 Apr 2020 15:26:49 GMT</lastBuildDate><item><title><![CDATA[Django 초기세팅 TIL]]></title><description><![CDATA[Django 초기세팅 배운거 정리]]></description><link>https://shooming.github.io/posts/TIL-setting-Django</link><guid isPermaLink="false">https://shooming.github.io/posts/TIL-setting-Django</guid><pubDate>Fri, 17 Apr 2020 14:10:00 GMT</pubDate><content:encoded>&lt;h1 id=&quot;초기세팅&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EC%B4%88%EA%B8%B0%EC%84%B8%ED%8C%85&quot; aria-label=&quot;초기세팅 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;초기세팅&lt;/h1&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[불로그]]></title><description><![CDATA[배운거 줍줍해서 여기에 박제해 놨습니다.]]></description><link>https://shooming.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Thu, 23 Apr 2020 01:18:21 GMT</lastBuildDate><item><title><![CDATA[Data Structure(Stack, Queue) TIL]]></title><description><![CDATA[Data Structure TIL 배운거 정리]]></description><link>https://shooming.github.io/posts/TIL-Data Structure-Stack-Queue</link><guid isPermaLink="false">https://shooming.github.io/posts/TIL-Data Structure-Stack-Queue</guid><pubDate>Mon, 20 Apr 2020 14:00:00 GMT</pubDate><content:encoded>&lt;h1 id=&quot;stack&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#stack&quot; aria-label=&quot;stack permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Stack&lt;/h1&gt;
+&lt;h2 id=&quot;stack이란&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#stack%EC%9D%B4%EB%9E%80&quot; aria-label=&quot;stack이란 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Stack이란?&lt;/h2&gt;
+&lt;p&gt;Stack은 자료구조 중 하나로 입력된 자료가 하나, 둘씩 쌓이게 되고 가장마지막에 저장된 데이터가 가장 먼저 꺼내지는 구조이다.(LIFO - Last In Frist Out)&lt;/p&gt;
+&lt;p&gt;Stack에서 데이터의 저장은 &lt;code class=&quot;language-text&quot;&gt;push&lt;/code&gt;라고 하며, 읽는것은 &lt;code class=&quot;language-text&quot;&gt;pop&lt;/code&gt;이라고한다.
+단 &lt;code class=&quot;language-text&quot;&gt;pop&lt;/code&gt;을 하게되면 읽어들이게 되면서 동시에 삭제도 합니다.&lt;/p&gt;
+&lt;h2 id=&quot;stack은-언제-써요&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#stack%EC%9D%80-%EC%96%B8%EC%A0%9C-%EC%8D%A8%EC%9A%94&quot; aria-label=&quot;stack은 언제 써요 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Stack은 언제 써요?&lt;/h2&gt;
+&lt;p&gt;Stack은 마지막에 저장한 내용이 제일 처음 나오기 때문에 최신내용을 받아와야할 때 사용됩니다.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;웹브라우저의 방문기록(뒤로가기)및 실행취소
+해당 기능들은 우리가 가장 마지막 작업을 했던 시점을 기준으로 내가 그 작업을 하기 전단계로 돌아가고 싶을때 사용하는 기능들 입니다. 그러기 위해해서는 작업했던 내용을 차곡차곡 저장했다가 한단계씩 빼내서 되돌리면 되기 때문입니다.
+&lt;br&gt;  &lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;미로찾기 알고리즘&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;{ 0, 0, 0, 0, 0, 0, 0, 1 },
+{ 0, 1, 1, 0, 1, 1, 0, 1 },
+{ 0, 0, 0, 1, 0, 0, 0, 1 },
+{ 0, 1, 0, 0, 1, 1, 0, 0 },
+{ 0, 1, 1, 1, 0, 0, 1, 1 },
+{ 0, 1, 0, 0, 0, 1, 0, 1 },
+{ 0, 0, 0, 1, 0, 0, 0, 1 },
+{ 0, 1, 1, 1, 0, 1, 0, 0 }&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 960px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/acb1e0d54528b8336cad7a22e354f3a2/21b4d/%EB%AF%B8%EB%A1%9C%EC%B0%BE%EA%B8%B0_%EC%8A%A4%ED%83%9D.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 44.99999999999999%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAJCAYAAAAywQxIAAAACXBIWXMAAAsSAAALEgHS3X78AAACHklEQVQoz12SXVPaYBCF87870+lde9HpRetML9pOtQNq1QpSRa1F+SoqKlCrAiKDWiSEj5CEBAgBn65pLzpmJvO+Z3N2z+bsKjx6HMfm9rZBq2X42PPG3N01aGq9/7BKQ+0ynU79mKZpXN805dsExfPu6dtDbNvBHXtCmlBv9KndmIzHrtDvabUtrmqOiA3/4T6XVQvbGfkFDcMWbGP2RyhnpQvmwjE+rmY4r/yWztoEIikC6wcks0UM0yS0e8jc6h7fM+dYlsnGjzwLmyki3w6kGZvtTIHZ0Dazi+so2dwGoe0AgXCanxdV+ZU6S+EwK9E0O8kTdMtgK75GMDjPViKP3tPZzSUk5wvzy1+x+jaxgz1COyvMvJ5BSZxUCD55ztMXQVKFGtd1TTpM8ya4x0L0mDu1zfxaivfLcd6FsrQ7XYKRDHOhNK8CSREw+BzNshTN8OxDEqUv3qmVCi2tzXDkirGeT+rqhnhiM5lM6Bmm4B49s+9jQ069Z6Iblj8Y0xrI69DRLZROp0NLVF33r8GDwQBVlak2VXRdl7grd41Ou0tPhEajkYirwqnL2RQBj1otx+lpnGJxH+WB4DiOTNTzC9pi8lX1imq1KklNKTikXD4il49L/IzJ1CNfiBDdfMvxSdTPOTpeZC3ykkT6E8rjPXRdR4odSlJM9qv2sHkUSzskkkHKl/s+p1iMkUotUCqlfVy+TJDJrPDrLMYfIhGFkim+heAAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;picture&gt;
+        &lt;source
+          srcset=&quot;/static/acb1e0d54528b8336cad7a22e354f3a2/8ac56/%EB%AF%B8%EB%A1%9C%EC%B0%BE%EA%B8%B0_%EC%8A%A4%ED%83%9D.webp 240w,
+/static/acb1e0d54528b8336cad7a22e354f3a2/d3be9/%EB%AF%B8%EB%A1%9C%EC%B0%BE%EA%B8%B0_%EC%8A%A4%ED%83%9D.webp 480w,
+/static/acb1e0d54528b8336cad7a22e354f3a2/e46b2/%EB%AF%B8%EB%A1%9C%EC%B0%BE%EA%B8%B0_%EC%8A%A4%ED%83%9D.webp 960w,
+/static/acb1e0d54528b8336cad7a22e354f3a2/af3f0/%EB%AF%B8%EB%A1%9C%EC%B0%BE%EA%B8%B0_%EC%8A%A4%ED%83%9D.webp 1280w&quot;
+          sizes=&quot;(max-width: 960px) 100vw, 960px&quot;
+          type=&quot;image/webp&quot;
+        /&gt;
+        &lt;source
+          srcset=&quot;/static/acb1e0d54528b8336cad7a22e354f3a2/8ff5a/%EB%AF%B8%EB%A1%9C%EC%B0%BE%EA%B8%B0_%EC%8A%A4%ED%83%9D.png 240w,
+/static/acb1e0d54528b8336cad7a22e354f3a2/e85cb/%EB%AF%B8%EB%A1%9C%EC%B0%BE%EA%B8%B0_%EC%8A%A4%ED%83%9D.png 480w,
+/static/acb1e0d54528b8336cad7a22e354f3a2/d9199/%EB%AF%B8%EB%A1%9C%EC%B0%BE%EA%B8%B0_%EC%8A%A4%ED%83%9D.png 960w,
+/static/acb1e0d54528b8336cad7a22e354f3a2/21b4d/%EB%AF%B8%EB%A1%9C%EC%B0%BE%EA%B8%B0_%EC%8A%A4%ED%83%9D.png 1280w&quot;
+          sizes=&quot;(max-width: 960px) 100vw, 960px&quot;
+          type=&quot;image/png&quot;
+        /&gt;
+        &lt;img
+          class=&quot;gatsby-resp-image-image&quot;
+          src=&quot;/static/acb1e0d54528b8336cad7a22e354f3a2/d9199/%EB%AF%B8%EB%A1%9C%EC%B0%BE%EA%B8%B0_%EC%8A%A4%ED%83%9D.png&quot;
+          alt=&quot;미로찾기 알고리즘&quot;
+          title=&quot;미로찾기 알고리즘&quot;
+          loading=&quot;lazy&quot;
+          style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        /&gt;
+      &lt;/picture&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;
+위와 같이 배열을 만들고 0은 길 1은 벽으로 표시한다. 이때 지나간 길은 1로 표시하면서 지나갔던 위치와 방향을 저장한다. 만약 이동하다 벽(1)을 만나게된다면 지금까지 왔던 내용을들 다시 꺼내와서 0이 있는 곳을 찾아 다시 이동하게 한다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&quot;stack-overflow&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#stack-overflow&quot; aria-label=&quot;stack overflow permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Stack Overflow&lt;/h2&gt;
+&lt;p&gt;Stack Overflow는 스택 포인터가 할닥한 스택의 경계를 넘어 설때 일어나게됩니다. 프로그램은 작동이 시작될때 스택 주소의 양을 결정하는데 프로그램이 호출한 스택을 넘어서 사용을 하려고 하게되면 충돌을 일어나게되고 이때 프로그램 충돌이 발생하게 된다.&lt;/p&gt;
+&lt;h1 id=&quot;queue&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#queue&quot; aria-label=&quot;queue permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Queue&lt;/h1&gt;
+&lt;h2 id=&quot;queue란&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#queue%EB%9E%80&quot; aria-label=&quot;queue란 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Queue란?&lt;/h2&gt;
+&lt;p&gt;Queue는 Stack과 반대로 먼저 저장(push)한 정보가 가장먼저 나오게되는(pop) 것입니다.(FIFO - First In First Out)&lt;/p&gt;
+&lt;p&gt;Queue에서 &lt;code class=&quot;language-text&quot;&gt;.enqueue()&lt;/code&gt;를 사용하여 데이터를 저장하고, &lt;code class=&quot;language-text&quot;&gt;.dequeue()&lt;/code&gt;를 사용하여 데이터를 빼내게됩니다.&lt;/p&gt;
+&lt;h2 id=&quot;queue는-언제-써요&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#queue%EB%8A%94-%EC%96%B8%EC%A0%9C-%EC%8D%A8%EC%9A%94&quot; aria-label=&quot;queue는 언제 써요 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Queue는 언제 써요?&lt;/h2&gt;
+&lt;p&gt;Queue는 대기열이 있는 경우 사용하게된다. 즉 순서가 있는 곳에서 사용되는 것이다.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;맛집 예약 시스템&lt;/li&gt;
+&lt;li&gt;프린터의 인쇄 대기목록&lt;/li&gt;
+&lt;li&gt;CPU의 프로세스 스케줄링&lt;/li&gt;
+&lt;/ol&gt;</content:encoded></item><item><title><![CDATA[Django 초기세팅 TIL]]></title><description><![CDATA[Django 초기세팅 배운거 정리]]></description><link>https://shooming.github.io/posts/TIL-setting-Django</link><guid isPermaLink="false">https://shooming.github.io/posts/TIL-setting-Django</guid><pubDate>Fri, 17 Apr 2020 14:10:00 GMT</pubDate><content:encoded>&lt;h1 id=&quot;초기세팅&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EC%B4%88%EA%B8%B0%EC%84%B8%ED%8C%85&quot; aria-label=&quot;초기세팅 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;초기세팅&lt;/h1&gt;
 &lt;h2 id=&quot;서버-처음-사용시-기본적인-세팅부분&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EC%84%9C%EB%B2%84-%EC%B2%98%EC%9D%8C-%EC%82%AC%EC%9A%A9%EC%8B%9C-%EA%B8%B0%EB%B3%B8%EC%A0%81%EC%9D%B8-%EC%84%B8%ED%8C%85%EB%B6%80%EB%B6%84&quot; aria-label=&quot;서버 처음 사용시 기본적인 세팅부분 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;서버 처음 사용시 기본적인 세팅부분&lt;/h2&gt;
 &lt;ol&gt;
 &lt;li&gt;.gitignore&lt;/li&gt;
@@ -135,7 +214,7 @@ SECRET &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; my_settings&l
 &lt;p&gt;b = payload
 토큰에 담을 내용&lt;/p&gt;
 &lt;p&gt;c = sgniture
-헤더의 인코딩 값과 정보의 인코딩값 하쳐서 비밀키로 해시하여 생성한다.&lt;/p&gt;
+헤더의 인코딩 값과 정보의 인코딩값 합쳐서 비밀키로 해시하여 생성한다.&lt;/p&gt;
 &lt;h2 id=&quot;jwt-사용하기&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#jwt-%EC%82%AC%EC%9A%A9%ED%95%98%EA%B8%B0&quot; aria-label=&quot;jwt 사용하기 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;JWT 사용하기&lt;/h2&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;python&quot;&gt;&lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;import&lt;/span&gt; jwt 
 
