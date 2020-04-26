@@ -17,9 +17,10 @@
 <url> <loc>https://shooming.github.io/posts/TIL-HTTP</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://shooming.github.io/posts/TIL-bcrypt</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://shooming.github.io/posts/TIL-jwt</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://shooming.github.io/posts/TIL-setting-Django</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://shooming.github.io/posts/TIL-Data Structure-Stack-Queue</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://shooming.github.io/posts/TIL-setting-Django</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://shooming.github.io/posts/TIL-Data MySql</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://shooming.github.io/posts/TIL-Related</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://shooming.github.io/tag/css</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://shooming.github.io/tag/data-structure</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://shooming.github.io/tag/django</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
@@ -29,10 +30,12 @@
 <url> <loc>https://shooming.github.io/tag/linux</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://shooming.github.io/tag/my-sql</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://shooming.github.io/tag/python</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://shooming.github.io/tag/select-related-prefetch-related</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://shooming.github.io/tag/til</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://shooming.github.io/tag/til/page/1</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://shooming.github.io/tag/til/page/2</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://shooming.github.io/tag/til/page/3</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://shooming.github.io/tag/til/page/4</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://shooming.github.io/tag/bcrypt</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://shooming.github.io/tag/jwt</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://shooming.github.io/tag/인증-인가</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
@@ -50,4 +53,5 @@
 <url> <loc>https://shooming.github.io/page/1</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://shooming.github.io/page/2</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://shooming.github.io/page/3</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://shooming.github.io/page/4</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 </urlset>
