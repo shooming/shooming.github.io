@@ -66,7 +66,53 @@
 <h2 id="2-database-모델링" style="position:relative;"><a href="#2-database-%EB%AA%A8%EB%8D%B8%EB%A7%81" aria-label="2 database 모델링 permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>2. DataBase 모델링</h2>
 <p>프로젝트가 시작되고 가장 먼저 시작한 것이 DB의 모델링이었다. Maserti의 내 차량 만들기의 차량 외관과 실내의 꾸밀수있는 색상과 옵션의 조합이 많았으므로 many-to-many의 조합이 많이 나오게 되는 모습이 되었다.
 처음에는 단순 조합만으로도 몇 백가지 조합이 나오는것으로 계산되어 잠깐 정신이 아찔했었다.</p>
-<p><img src="./img/project/DB.png" alt="DB모델링"></p>
+<p><span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 960px;"
+    >
+      <a
+    class="gatsby-resp-image-link"
+    href="/static/b0a72ac01919f431fc421eaf5d380e9e/fbd44/DB.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+    <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 73.75%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAPCAYAAADkmO9VAAAACXBIWXMAAAsTAAALEwEAmpwYAAAB9UlEQVQ4y21TibLjIAzj/3+0M2/LfRMSr0S22bSvnqGkxsiybNTTOkmlyn4ca+f/jH2bU0rrMrYpbWxS+oBvF9qBWBrvfC7lYhSfMi5uy9HHkIFVWxNtrRSA51IkII4xp52AEX4fE2K7BGCk2giYxMUsHcE8MCGuvYIRz2rvcrcJ5nM/mcZcxPogBUA2hAWuSq3SALABkGWSCRlVBPvnU3pKSwrHRACnJNp5VLEthhb+DMCE+AiWynkv2pgFWFDmjzYrM8vzOKvlZJ8ydgA2LhDYwZIVMIEHqPm3FDUzAKRuFJv7vLT6bUwW2bTtP8NVAcADkiqP2pfgAHoZs5dWwQxSTGjbz2/6e0O3xwTgBPsmrfZTVy4kUaubWq/gl41toBSNzAkj06GfR8lpsdLaSkITWbY1QWJIbxUoavWk+NDGRQ/aAYza+l6AnR10KDWiu/O6SIbWIt4nkDmu+VT84SJDCp9LXgwJSJAOhtobzKq/xuV1+Th2ed2/AO8BPoV1kSAEyzUvbciUOh5yvL2Uu718is+qgz7nagyKe1zfLKuhCfvyTciy4Xy/MTx+M+SQsuUch58/GqKbNaCWbxy+p3HiHJtSMZdZah1vgJ+m+Gz4WthBltowLvdnZiC893F9f5b3zdQ3570Esn08HpLRsM+zb8B/AfXDlb2Y2GtiAAAAAElFTkSuQmCC'); background-size: cover; display: block;"
+  ></span>
+  <picture>
+        <source
+          srcset="/static/b0a72ac01919f431fc421eaf5d380e9e/8ac56/DB.webp 240w,
+/static/b0a72ac01919f431fc421eaf5d380e9e/d3be9/DB.webp 480w,
+/static/b0a72ac01919f431fc421eaf5d380e9e/e46b2/DB.webp 960w,
+/static/b0a72ac01919f431fc421eaf5d380e9e/f992d/DB.webp 1440w,
+/static/b0a72ac01919f431fc421eaf5d380e9e/882b9/DB.webp 1920w,
+/static/b0a72ac01919f431fc421eaf5d380e9e/d3931/DB.webp 2215w"
+          sizes="(max-width: 960px) 100vw, 960px"
+          type="image/webp"
+        />
+        <source
+          srcset="/static/b0a72ac01919f431fc421eaf5d380e9e/8ff5a/DB.png 240w,
+/static/b0a72ac01919f431fc421eaf5d380e9e/e85cb/DB.png 480w,
+/static/b0a72ac01919f431fc421eaf5d380e9e/d9199/DB.png 960w,
+/static/b0a72ac01919f431fc421eaf5d380e9e/07a9c/DB.png 1440w,
+/static/b0a72ac01919f431fc421eaf5d380e9e/29114/DB.png 1920w,
+/static/b0a72ac01919f431fc421eaf5d380e9e/fbd44/DB.png 2215w"
+          sizes="(max-width: 960px) 100vw, 960px"
+          type="image/png"
+        />
+        <img
+          class="gatsby-resp-image-image"
+          src="/static/b0a72ac01919f431fc421eaf5d380e9e/d9199/DB.png"
+          alt="DB모델링"
+          title="DB모델링"
+          loading="lazy"
+          style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
+        />
+      </picture>
+  </a>
+    </span></p>
 <p>위의 사진이 이번 프로젝트를 하면서 만들어진 DB 모델링이다.
 다른 팀의 DB보다 조금 복잡하여 정리가 안되어 보여서 제대로 짠게 맞나 싶어서 멘토분들에게 물어보거나 같은 팀원과 머리를 싸메었으나 자신이 없었다. 하지만 막상 실제로 적용해보니 생각보다 나쁘지 않았고 실제로도 모든 테이블들을 활용 했던것 같다.</p>
 <h2 id="3-django-admin-startproject-maserati" style="position:relative;"><a href="#3-django-admin-startproject-maserati" aria-label="3 django admin startproject maserati permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>3. django-admin startproject Maserati</h2>
