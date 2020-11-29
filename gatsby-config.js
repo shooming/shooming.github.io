@@ -15,15 +15,12 @@ module.exports = {
     author: siteConfig.author
   },
   plugins: [
-<<<<<<< HEAD
      {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
           trackingId: `UA-165709946-1`,
         }
       },
-=======
->>>>>>> 6cc2d32b333426390b0e4b29e0a42f0226fb9529
     {
       resolve: 'gatsby-source-filesystem',
       options: {
