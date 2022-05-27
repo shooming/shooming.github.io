@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Sitemap: https://shooming.github.io/sitemap/sitemap-index.xml
+Host: https://shooming.github.io
